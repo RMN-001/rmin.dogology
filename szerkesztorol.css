@@ -1,0 +1,156 @@
+/* szerkesztorol.html */
+
+.container {
+    grid-template-areas:
+    "header"
+    "menu"
+    "main"
+    "footer";
+    grid-template-columns: 100%;
+    grid-template-rows: 100px 50px 1fr 10px;
+    font-family: serif;
+
+}
+
+.header {
+    background-color: #ffffff;
+    grid-template-areas:
+    "title";
+    border:2px;
+    border-radius: 25px 25px 0px 0px;
+    grid-template-columns: 100%;
+    grid-template-rows: 75px;
+    font-size: 2rem;
+    text-align: center;
+    color: #8b4513;
+    display: grid;
+    float: top;
+
+}
+
+h1 {
+    color: rgba(59, 39, 39, 0.904);
+    margin-top: 5px;;
+    font-size: 2rem;
+    font-family: 'DoggyDogWorld', cursive;
+    text-shadow: 2px 2px;
+}
+
+
+
+.menu {
+    background-color: #fdfdfd;
+    color: #8b4513;
+    border: 2px solid rgb(255, 255, 255);
+    text-align: center;
+    border-radius: 0px 0px 25px 25px;
+    margin-bottom: 50px;
+
+}
+
+.menu-button {
+    display: inline-block
+
+}
+
+.menu-icon {
+    color: #ffffff;
+    margin: 0px;
+
+}
+
+.menu-nav {
+    text-align: center;
+    background-color: #ffffff;
+    border-radius: 20px;
+    padding: 3px;
+    margin: 0px;
+    font-weight: bold;
+    font-family: 'Dancing Script', cursive;
+    cursor: pointer;
+    margin-bottom: 10px;
+
+}
+
+#en {
+    border: 5px solid #ffffff;
+    max-width: 50%;
+    height: auto;
+    display: block;
+    margin-left: 1100px;
+    margin-top: -400px;
+    height: 100%;
+
+}
+
+li {
+    line-height: 1.5;
+    font-size: 1.4rem;
+    color: white;
+    margin-left: 100px;
+    
+}
+
+ol li {
+    width: 70%;
+    margin-top: 25px;
+    margin-left: auto;
+    margin-right: auto;
+    list-style: decimal;
+    font-size: 1.3rem;
+    line-height: 1.5;
+    text-align: left;
+    
+
+}
+
+.button {
+    display: inline-flex;
+    color: white;
+    font-size: 30px;
+    background-color: rgba(165, 42, 42, 0);
+    cursor: pointer;
+    border: 2px solid white;
+    border-radius: 2px;
+    margin-inline-start: 100px;
+    margin-inline-end: 0px;
+}
+
+.contact-button {
+    margin-top: 20px;
+    margin-left: 150px;
+
+}
+
+.submit-button {
+	color: #ffffff;
+	background-color: #5c2d2d00;
+    border-radius: 5px;
+    border-color: white;
+	padding: 5px;
+    width: 100px;
+    cursor: pointer;
+    margin-top: 50px;
+    font-family: serif;
+    font-weight: bold;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    
+}
+
+.p {
+    color: rgb(255, 255, 255);
+    position: center;
+    margin-left: 150px;
+    margin-top: -20px;
+    font-size: 1.5rem;
+}
+
+.footer {
+    font-size: 1rem;
+    text-align: center;
+    margin-bottom: auto;
+    color: white;
+
+}

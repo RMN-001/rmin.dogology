@@ -1,0 +1,116 @@
+/* home.html */
+
+.container {
+    grid-template-areas:
+    "header"
+    "menu"
+    "main"
+    "footer";
+    grid-template-columns: 100%;
+    grid-template-rows: 100px 50px 1fr 10px;
+    font-family: serif;
+
+}
+
+.header {
+    background-color: #ffffff;
+    grid-template-areas:
+    "title";
+    border:2px;
+    border-radius: 25px 25px 0px 0px;
+    grid-template-columns: 100%;
+    grid-template-rows: 75px;
+    font-size: 2rem;
+    text-align: center;
+    color: #8b4513;
+    display: grid;
+    float: top;
+
+}
+
+h1 {
+    color: rgba(59, 39, 39, 0.904);
+    margin-top: 5px;;
+    font-size: 2rem;
+    font-family: 'DoggyDogWorld', cursive;
+    text-shadow: 2px 2px;
+}
+
+p {
+    color: rgb(255, 255, 255);
+    position: center;
+    margin-left: 470px;
+    margin-right: 150px;
+    font-size: 1rem;
+    margin-top: -330px;
+    margin-bottom: 100px;
+    
+
+}
+
+
+.menu {
+    background-color: #fdfdfd;
+    color: #8b4513;
+    border: px solid rgb(255, 255, 255);
+    text-align: center;
+    border-radius: 0px 0px 25px 25px;
+    margin-bottom: 50px;
+
+}
+
+.menu-button {
+    display: inline-block
+
+}
+
+.menu-icon {
+    color: #ffffff;
+    margin: 0px;
+
+}
+
+.menu-nav {
+    text-align: center;
+    background-color: #ffffff;
+    border-radius: 20px;
+    padding: 3px;
+    margin: 0px;
+    font-weight: bold;
+    font-family: 'Dancing Script', cursive;
+    cursor: pointer;
+    margin-bottom: 10px;
+
+}
+
+#spikey {
+    border: 5px solid #ffffff;
+    max-width: 50%;
+    height: auto;
+    display: block;
+    margin-left: 150px;
+    border-radius: 25px;
+
+}
+
+#maszat {
+    border: 5px solid #ffffff;
+    max-width: 100%;
+    height: auto;
+    display: block;
+    margin-left: 150px;
+    margin-bottom: -50px;
+    border-radius: 25px;
+
+}
+
+.footer {
+    font-size: 1.5rem;
+    text-align: center;
+    display: block;
+    margin-top: 550px;
+    margin-left: -300px;
+}
+
+
+
